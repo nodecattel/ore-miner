@@ -1,0 +1,6 @@
+cargo run --release -- \
+    --rpc https://falling-misty-arrow.solana-mainnet.quiknode.pro/d9685021f7d130163447655aca13c4dd2fbfc56c/ \
+    --priority-fee 500000 \               
+    claim \
+    --key-folder /root/wallets \
+    --beneficiary 6rMA7HA3x4N5jeM46cNxFQePxcH72YqMsxezUEpN5KM9
